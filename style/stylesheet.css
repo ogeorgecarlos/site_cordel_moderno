@@ -58,12 +58,12 @@ section p{
     padding-bottom:2em;
 }
 
-section .normal{
+section.normal{
     background-color: white;
     color:black;
 }
 
-section .imagem{
+section.imagem{
     background-color: rgb(24, 23, 23);
     color:white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.582) ;
@@ -71,20 +71,20 @@ section .imagem{
     background-attachment: fixed; /*deixa os arquivos anexados como background "travados" de forma que a pagina se move e eles não, ou seja cria o efeito "paralax" , como se a pagina estivesse correndo sobreo arquivo, se movimentando sobre o arquivo*/
 }
 
-section .imagem p{
+section.imagem p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.623);
     padding:5px;
     text-shadow: 1px 1px 0px black;
 }
 
-section #img01{
+section#img01{
     background-image: url(../imagens/background001.jpg);
     background-position: right center;
     
 }
 
-section #img02{
+section#img02{
     background-image: url(../imagens/background002.jpg);
     background-position: bottom right;
 }
